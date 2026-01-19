@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:narayan_farms/auth/repository/auth_repository.dart';
+import 'package:narayan_farms/features/auth/model/repository/auth_repository.dart';
 
 part 'auth_event.dart';
 part 'auth_state.dart';
@@ -33,7 +33,9 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
           add(OnPhoneAuthErrorEvent(error: e.code));
         },
         codeSent: (String verificationId, int? resendToken) {
-          add(OnCodeSentEvent(verificationId: verificationId, token: resendToken));
+          add(
+            OnCodeSentEvent(verificationId: verificationId, token: resendToken),
+          );
         },
         codeAutoRetrievalTimeout: (String verificationId) {},
       );
@@ -68,11 +70,14 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   }
 
   void _onPhoneAuthVerificationComplete(
-      OnPhoneAuthVerificationCompleteEvent event, Emitter<AuthState> emit) async {
+    OnPhoneAuthVerificationCompleteEvent event,
+    Emitter<AuthState> emit,
+  ) async {
     emit(AuthLoadingState());
     try {
-      final userCredential =
-          await FirebaseAuth.instance.signInWithCredential(event.credential);
+      final userCredential = await FirebaseAuth.instance.signInWithCredential(
+        event.credential,
+      );
       final user = userCredential.user;
       if (user != null) {
         await authRepository.storeUserData(_name, _phoneNumber);

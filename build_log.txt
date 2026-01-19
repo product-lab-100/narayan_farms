@@ -1,0 +1,1082 @@
+[  +24 ms] executing: uname -m
+[   +4 ms] Exit code 0 from: uname -m
+[        ] x86_64
+[   +7 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +1 ms] executing: [/opt/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[   +5 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2025-12-11 11:50:07 -0500
+[  +18 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +49 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +11 ms] Skipping pub get: version match.
+[  +88 ms] Found plugin firebase_core at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core-2.32.0/
+[   +6 ms] Found plugin firebase_core_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core_web-2.24.0/
+[   +7 ms] Found plugin firebase_auth at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth-4.16.0/
+[   +3 ms] Found plugin firebase_auth_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/
+[   +9 ms] Found plugin cloud_firestore at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore-4.17.5/
+[   +2 ms] Found plugin cloud_firestore_web at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.12.5/
+[  +62 ms] Found plugin firebase_core at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core-2.32.0/
+[   +2 ms] Found plugin firebase_core_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core_web-2.24.0/
+[   +6 ms] Found plugin firebase_auth at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth-4.16.0/
+[   +2 ms] Found plugin firebase_auth_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/
+[   +6 ms] Found plugin cloud_firestore at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore-4.17.5/
+[   +2 ms] Found plugin cloud_firestore_web at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.12.5/
+[  +12 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[  +28 ms] Found plugin firebase_core at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core-2.32.0/
+[   +1 ms] Found plugin firebase_core_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core_web-2.24.0/
+[   +3 ms] Found plugin firebase_auth at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth-4.16.0/
+[   +1 ms] Found plugin firebase_auth_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/
+[   +4 ms] Found plugin cloud_firestore at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore-4.17.5/
+[   +1 ms] Found plugin cloud_firestore_web at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.12.5/
+[   +5 ms] Generating /home/shivam/WorkingArea/narayan_farms/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +1 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[ +113 ms] Found plugin firebase_core at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core-2.32.0/
+[   +2 ms] Found plugin firebase_core_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_core_web-2.24.0/
+[   +6 ms] Found plugin firebase_auth at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth-4.16.0/
+[   +2 ms] Found plugin firebase_auth_web at /home/shivam/.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/
+[   +8 ms] Found plugin cloud_firestore at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore-4.17.5/
+[   +1 ms] Found plugin cloud_firestore_web at /home/shivam/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.12.5/
+[   +3 ms] generated_plugin_registrant.dart not found. Skipping.
+[   +1 ms] Compiling lib/main.dart for the Web...
+[   +8 ms] Initializing file store
+[   +2 ms] Done initializing file store
+[  +42 ms] Skipping target: web_entrypoint
+[   +2 ms] invalidated build due to missing files: /home/shivam/WorkingArea/narayan_farms/web/*/index.html, /home/shivam/WorkingArea/narayan_farms/web/flutter_bootstrap.js
+[   +1 ms] Skipping target: dart_build
+[   +1 ms] Skipping target: gen_localizations
+[   +2 ms] web_templated_files: Starting due to {InvalidatedReasonKind.outputMissing: The following outputs were missing: /home/shivam/WorkingArea/narayan_farms/build/web/*/index.html, InvalidatedReasonKind.inputMissing: The following inputs were missing: /home/shivam/WorkingArea/narayan_farms/web/*/index.html,/home/shivam/WorkingArea/narayan_farms/web/flutter_bootstrap.js}
+[   +1 ms] web_static_assets: Starting due to {InvalidatedReasonKind.outputMissing: The following outputs were missing: /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/flutter.js,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/canvaskit.js.symbols,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/canvaskit.js,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/skwasm.wasm,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/skwasm_heavy.wasm,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/chromium/canvaskit.js.symbols,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/chromium/canvaskit.js,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/chromium/canvaskit.wasm,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/canvaskit.wasm,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/skwasm_heavy.js,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/skwasm.js.symbols,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/skwasm_heavy.js.symbols,/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/canvaskit/skwasm.js}
+[  +74 ms] web_static_assets: Complete
+[   +2 ms] dart2js: Starting due to {}
+[   +6 ms] executing: /opt/flutter/bin/cache/dart-sdk/bin/dart compile js --platform-binaries=/opt/flutter/bin/cache/flutter_web_sdk/kernel --invoker=flutter_tool -Ddart.vm.product=true -DFLUTTER_VERSION=3.38.5 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=f6ff1529fd -DFLUTTER_ENGINE_REVISION=1527ae0ec5 -DFLUTTER_DART_VERSION=3.10.4 -DFLUTTER_WEB_USE_SKIA=true -DFLUTTER_WEB_USE_SKWASM=false -DFLUTTER_WEB_CANVASKIT_URL=https://www.gstatic.com/flutter-canvaskit/1527ae0ec577a4ef50e65f6fefcfc1326707d9bf/ --native-null-assertions --no-source-maps -O4 --minify -o /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/app.dill --packages=/home/shivam/WorkingArea/narayan_farms/.dart_tool/package_config.json --cfe-only /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/main.dart
+[   +1 ms] dart2wasm: Starting due to {}
+[   +2 ms] executing: /opt/flutter/bin/cache/dart-sdk/bin/dart compile wasm --packages=/home/shivam/WorkingArea/narayan_farms/.dart_tool/package_config.json --extra-compiler-option=--platform=/opt/flutter/bin/cache/flutter_web_sdk/kernel/dart2wasm_platform.dill -Ddart.vm.profile=false -Ddart.vm.product=true --extra-compiler-option=--delete-tostring-package-uri=dart:ui --extra-compiler-option=--delete-tostring-package-uri=package:flutter --extra-compiler-option=--import-shared-memory --extra-compiler-option=--shared-memory-max-pages=32768 -DFLUTTER_VERSION=3.38.5 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=f6ff1529fd -DFLUTTER_ENGINE_REVISION=1527ae0ec5 -DFLUTTER_DART_VERSION=3.10.4 -DFLUTTER_WEB_USE_SKIA=false -DFLUTTER_WEB_USE_SKWASM=true -DFLUTTER_WEB_CANVASKIT_URL=https://www.gstatic.com/flutter-canvaskit/1527ae0ec577a4ef50e65f6fefcfc1326707d9bf/ --extra-compiler-option=--depfile=/home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/dart2wasm.d -O2 --strip-wasm --no-source-maps --minify --extra-compiler-option=--dry-run -o /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/main.dart.wasm /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/main.dart
+[  +41 ms] web_templated_files: Complete
+[+9088 ms] ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:26:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> applyActionCode(AuthJsImpl auth, String oobCode);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:38:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ActionCodeInfo> checkActionCode(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:42:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> confirmPasswordReset(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:55:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> setPersistence(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:59:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> createUserWithEmailAndPassword(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:70:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> deleteUser(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:75:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<List> fetchSignInMethodsForEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:82:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl?> getRedirectResult(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:87:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> sendSignInLinkToEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:94:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> sendPasswordResetEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:101:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithCredential(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:107:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInAnonymously(AuthJsImpl auth);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:110:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithCustomToken(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:116:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithEmailAndPassword(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:123:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithEmailLink(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:130:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ConfirmationResultJsImpl> signInWithPhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:137:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithPopup(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:143:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> signInWithRedirect(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:149:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<String> verifyPasswordResetCode(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:155:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> linkWithCredential(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:161:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ConfirmationResultJsImpl> linkWithPhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:168:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> linkWithPopup(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:174:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> linkWithRedirect(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:180:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> reauthenticateWithCredential(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:186:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ConfirmationResultJsImpl> reauthenticateWithPhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:193:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> reauthenticateWithPopup(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:199:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> reauthenticateWithRedirect(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:205:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> sendEmailVerification([
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:211:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> verifyBeforeUpdateEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:218:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserJsImpl> unlink(UserJsImpl user, String providerId);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:221:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updateEmail(UserJsImpl user, String newEmail);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:224:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updatePassword(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:230:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updatePhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:236:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updateProfile(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:276:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> signOut();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:311:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> delete();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:312:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<String> getIdToken([bool? opt_forceRefresh]);
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:313:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<IdTokenResultImpl> getIdTokenResult(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:315:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> reload();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:468:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<String> verifyPhoneNumber(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:489:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<String> verify();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:500:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<num> render();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:506:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<UserCredentialJsImpl> confirm(String verificationCode);
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:705:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> enroll(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:707:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<MultiFactorSessionJsImpl> getSession();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:708:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> unenroll(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:735:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<UserCredentialJsImpl> resolveSignIn(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:790:19:
+           Error: Type 'PromiseJsImpl' not found.
+             external static PromiseJsImpl<TotpSecretJsImpl> generateSecret(
+                             ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/utils/utils.dart:11:23:
+           Error: Method not found: 'dartify'.
+             return core_interop.dartify(jsObject);
+                                 ^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/utils/utils.dart:19:23:
+           Error: Method not found: 'jsify'.
+             return core_interop.jsify(dartObject, customJsify);
+                                 ^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:116:28:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<void> delete() => handleThenable(jsObject.delete());
+                                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:126:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(jsObject.getIdToken(forceRefresh));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:132:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.linkWithCredential(jsObject, credential))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:139:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:148:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.linkWithPopup(jsObject, provider.jsObject))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:153:59:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<void> linkWithRedirect(AuthProvider provider) => handleThenable(
+                                                                     ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:160:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:171:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.reauthenticateWithPhoneNumber(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:179:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:186:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:190:28:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<void> reload() => handleThenable(jsObject.reload());
+                                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:212:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:219:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.verifyBeforeUpdateEmail(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:224:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.unlink(jsObject, providerId))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:229:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updateEmail(jsObject, newEmail));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:235:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updatePassword(jsObject, newPassword));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:240:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updatePhoneNumber(jsObject, phoneCredential));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:244:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updateProfile(jsObject, profile));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:251:12:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+               return handleThenable(promise).then(IdTokenResult._fromJsObject);
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:455:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.applyActionCode(jsObject, oobCode));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:461:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.checkActionCode(jsObject, code));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:465:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:485:21:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+               final u = await handleThenable(
+                               ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:498:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.fetchSignInMethodsForEmail(jsObject, email))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:511:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.getRedirectResult(jsObject)).then(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:526:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.sendSignInLinkToEmail(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:562:12:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+               return handleThenable(auth_interop.setPersistence(jsObject, instance));
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:586:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.sendPasswordResetEmail(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:593:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithCredential(jsObject, credential))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:602:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInAnonymously(jsObject))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:613:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithCustomToken(jsObject, token))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:640:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithEmailAndPassword(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:646:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:662:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithPhoneNumber(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:670:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithPopup(jsObject, provider.jsObject))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:674:55:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future signInWithRedirect(AuthProvider provider) => handleThenable(
+                                                                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:678:23:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future signOut() => handleThenable(jsObject.signOut());
+                                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:696:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.verifyPasswordResetCode(jsObject, code));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:989:7:
+           Error: The method 'handleThenable' isn't defined for the type 'PhoneAuthProvider'.
+            - 'PhoneAuthProvider' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(jsObject.verifyPhoneNumber(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:1016:30:
+           Error: The method 'handleThenable' isn't defined for the type 'ApplicationVerifier<T>'.
+            - 'ApplicationVerifier' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<String> verify() => handleThenable(jsObject.verify());
+                                        ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:1072:27:
+           Error: The method 'handleThenable' isn't defined for the type 'RecaptchaVerifier'.
+            - 'RecaptchaVerifier' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<num> render() => handleThenable(jsObject.render());
+                                     ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:1093:7:
+           Error: The method 'handleThenable' isn't defined for the type 'ConfirmationResult'.
+            - 'ConfirmationResult' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(jsObject.confirm(verificationCode))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:52:7:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorUser'.
+            - 'MultiFactorUser' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+                 handleThenable(jsObject.getSession())
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:63:12:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorUser'.
+            - 'MultiFactorUser' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+               return handleThenable(jsObject.enroll(assertion.jsObject, displayName));
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:75:12:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorUser'.
+            - 'MultiFactorUser' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+               return handleThenable(jsObject.unenroll(multiFactorInfoId));
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:150:12:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorResolver'.
+            - 'MultiFactorResolver' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+               return handleThenable(jsObject.resolveSignIn(assertion.jsObject))
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:230:12:
+           Error: Method not found: 'handleThenable'.
+               return handleThenable(
+                      ^^^^^^^^^^^^^^
+           Error: Compilation failed.
+[+23809 ms] Found incompatibilities with WebAssembly.
+
+            package:firebase_auth_web/firebase_auth_web.dart 7:1 - dart:html unsupported (0)
+            package:firebase_auth_web/src/firebase_auth_web_recaptcha_verifier_factory.dart 7:1 - dart:html unsupported (0)
+            package:firebase_auth_web/src/firebase_auth_web_user.dart 7:1 - dart:js unsupported (1)
+            package:js/js.dart 10:1 - dart:js unsupported (1)
+            package:firebase_auth_web/src/utils/web_utils.dart 13:1 - JS interop library 'package:js/js_util.dart' can't be imported when compiling to Wasm. (2)
+            package:firebase_auth_web/src/interop/auth.dart 15:1 - JS interop library 'package:js/js.dart' can't be imported when compiling to Wasm. (2)
+            package:firebase_auth_web/src/interop/window_interop.dart 8:1 - JS interop library 'package:js/js.dart' can't be imported when compiling to Wasm. (2)
+            package:firebase_auth_web/src/interop/auth_interop.dart 14:1 - JS interop library 'package:js/js.dart' can't be imported when compiling to Wasm. (2)
+[        ] Wasm dry run findings:
+[        ] Found incompatibilities with WebAssembly.
+
+           package:firebase_auth_web/firebase_auth_web.dart 7:1 - dart:html unsupported (0)
+           package:firebase_auth_web/src/firebase_auth_web_recaptcha_verifier_factory.dart 7:1 - dart:html unsupported (0)
+           package:firebase_auth_web/src/firebase_auth_web_user.dart 7:1 - dart:js unsupported (1)
+           package:js/js.dart 10:1 - dart:js unsupported (1)
+           package:firebase_auth_web/src/utils/web_utils.dart 13:1 - JS interop library 'package:js/js_util.dart' can't be imported when compiling to Wasm. (2)
+           package:firebase_auth_web/src/interop/auth.dart 15:1 - JS interop library 'package:js/js.dart' can't be imported when compiling to Wasm. (2)
+           package:firebase_auth_web/src/interop/window_interop.dart 8:1 - JS interop library 'package:js/js.dart' can't be imported when compiling to Wasm. (2)
+           package:firebase_auth_web/src/interop/auth_interop.dart 14:1 - JS interop library 'package:js/js.dart' can't be imported when compiling to Wasm. (2)
+
+[        ] Consider addressing these issues to enable wasm builds. See docs for more info: https://docs.flutter.dev/platform-integration/web/wasm
+
+[        ] Use --no-wasm-dry-run to disable these warnings.
+[  +27 ms] dart2wasm: Complete
+[   +1 ms] Persisting file store
+[   +2 ms] Done persisting file store
+[   +3 ms] Target dart2js failed: ProcessException: Process exited abnormally with exit code 1:
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:26:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> applyActionCode(AuthJsImpl auth, String oobCode);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:38:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ActionCodeInfo> checkActionCode(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:42:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> confirmPasswordReset(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:55:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> setPersistence(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:59:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> createUserWithEmailAndPassword(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:70:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> deleteUser(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:75:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<List> fetchSignInMethodsForEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:82:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl?> getRedirectResult(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:87:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> sendSignInLinkToEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:94:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> sendPasswordResetEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:101:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithCredential(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:107:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInAnonymously(AuthJsImpl auth);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:110:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithCustomToken(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:116:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithEmailAndPassword(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:123:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithEmailLink(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:130:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ConfirmationResultJsImpl> signInWithPhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:137:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> signInWithPopup(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:143:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> signInWithRedirect(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:149:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<String> verifyPasswordResetCode(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:155:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> linkWithCredential(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:161:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ConfirmationResultJsImpl> linkWithPhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:168:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> linkWithPopup(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:174:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> linkWithRedirect(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:180:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> reauthenticateWithCredential(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:186:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<ConfirmationResultJsImpl> reauthenticateWithPhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:193:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserCredentialJsImpl> reauthenticateWithPopup(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:199:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> reauthenticateWithRedirect(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:205:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> sendEmailVerification([
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:211:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> verifyBeforeUpdateEmail(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:218:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<UserJsImpl> unlink(UserJsImpl user, String providerId);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:221:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updateEmail(UserJsImpl user, String newEmail);
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:224:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updatePassword(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:230:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updatePhoneNumber(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:236:10:
+           Error: Type 'PromiseJsImpl' not found.
+           external PromiseJsImpl<void> updateProfile(
+                    ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:276:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> signOut();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:311:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> delete();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:312:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<String> getIdToken([bool? opt_forceRefresh]);
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:313:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<IdTokenResultImpl> getIdTokenResult(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:315:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> reload();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:468:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<String> verifyPhoneNumber(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:489:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<String> verify();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:500:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<num> render();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:506:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<UserCredentialJsImpl> confirm(String verificationCode);
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:705:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> enroll(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:707:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<MultiFactorSessionJsImpl> getSession();
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:708:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<void> unenroll(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:735:12:
+           Error: Type 'PromiseJsImpl' not found.
+             external PromiseJsImpl<UserCredentialJsImpl> resolveSignIn(
+                      ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth_interop.dart:790:19:
+           Error: Type 'PromiseJsImpl' not found.
+             external static PromiseJsImpl<TotpSecretJsImpl> generateSecret(
+                             ^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/utils/utils.dart:11:23:
+           Error: Method not found: 'dartify'.
+             return core_interop.dartify(jsObject);
+                                 ^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/utils/utils.dart:19:23:
+           Error: Method not found: 'jsify'.
+             return core_interop.jsify(dartObject, customJsify);
+                                 ^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:116:28:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<void> delete() => handleThenable(jsObject.delete());
+                                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:126:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(jsObject.getIdToken(forceRefresh));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:132:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.linkWithCredential(jsObject, credential))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:139:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:148:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.linkWithPopup(jsObject, provider.jsObject))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:153:59:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<void> linkWithRedirect(AuthProvider provider) => handleThenable(
+                                                                     ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:160:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:171:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.reauthenticateWithPhoneNumber(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:179:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:186:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:190:28:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<void> reload() => handleThenable(jsObject.reload());
+                                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:212:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:219:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.verifyBeforeUpdateEmail(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:224:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.unlink(jsObject, providerId))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:229:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updateEmail(jsObject, newEmail));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:235:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updatePassword(jsObject, newPassword));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:240:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updatePhoneNumber(jsObject, phoneCredential));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:244:7:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.updateProfile(jsObject, profile));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:251:12:
+           Error: The method 'handleThenable' isn't defined for the type 'User'.
+            - 'User' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+               return handleThenable(promise).then(IdTokenResult._fromJsObject);
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:455:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.applyActionCode(jsObject, oobCode));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:461:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.checkActionCode(jsObject, code));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:465:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:485:21:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+               final u = await handleThenable(
+                               ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:498:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.fetchSignInMethodsForEmail(jsObject, email))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:511:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.getRedirectResult(jsObject)).then(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:526:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.sendSignInLinkToEmail(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:562:12:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+               return handleThenable(auth_interop.setPersistence(jsObject, instance));
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:586:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.sendPasswordResetEmail(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:593:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithCredential(jsObject, credential))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:602:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInAnonymously(jsObject))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:613:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithCustomToken(jsObject, token))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:640:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithEmailAndPassword(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:646:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:662:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithPhoneNumber(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:670:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.signInWithPopup(jsObject, provider.jsObject))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:674:55:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future signInWithRedirect(AuthProvider provider) => handleThenable(
+                                                                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:678:23:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future signOut() => handleThenable(jsObject.signOut());
+                                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:696:7:
+           Error: The method 'handleThenable' isn't defined for the type 'Auth'.
+            - 'Auth' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(auth_interop.verifyPasswordResetCode(jsObject, code));
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:989:7:
+           Error: The method 'handleThenable' isn't defined for the type 'PhoneAuthProvider'.
+            - 'PhoneAuthProvider' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(jsObject.verifyPhoneNumber(
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:1016:30:
+           Error: The method 'handleThenable' isn't defined for the type 'ApplicationVerifier<T>'.
+            - 'ApplicationVerifier' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<String> verify() => handleThenable(jsObject.verify());
+                                        ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:1072:27:
+           Error: The method 'handleThenable' isn't defined for the type 'RecaptchaVerifier'.
+            - 'RecaptchaVerifier' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+             Future<num> render() => handleThenable(jsObject.render());
+                                     ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart:1093:7:
+           Error: The method 'handleThenable' isn't defined for the type 'ConfirmationResult'.
+            - 'ConfirmationResult' is from 'package:firebase_auth_web/src/interop/auth.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/auth.dart').
+                 handleThenable(jsObject.confirm(verificationCode))
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:52:7:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorUser'.
+            - 'MultiFactorUser' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+                 handleThenable(jsObject.getSession())
+                 ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:63:12:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorUser'.
+            - 'MultiFactorUser' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+               return handleThenable(jsObject.enroll(assertion.jsObject, displayName));
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:75:12:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorUser'.
+            - 'MultiFactorUser' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+               return handleThenable(jsObject.unenroll(multiFactorInfoId));
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:150:12:
+           Error: The method 'handleThenable' isn't defined for the type 'MultiFactorResolver'.
+            - 'MultiFactorResolver' is from 'package:firebase_auth_web/src/interop/multi_factor.dart' ('../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart').
+               return handleThenable(jsObject.resolveSignIn(assertion.jsObject))
+                      ^^^^^^^^^^^^^^
+           ../../.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.13/lib/src/interop/multi_factor.dart:230:12:
+           Error: Method not found: 'handleThenable'.
+               return handleThenable(
+                      ^^^^^^^^^^^^^^
+           Error: Compilation failed.
+             Command: /opt/flutter/bin/cache/dart-sdk/bin/dart compile js --platform-binaries=/opt/flutter/bin/cache/flutter_web_sdk/kernel --invoker=flutter_tool -Ddart.vm.product=true -DFLUTTER_VERSION=3.38.5 -DFLUTTER_CHANNEL=stable -DFLUTTER_GIT_URL=https://github.com/flutter/flutter.git -DFLUTTER_FRAMEWORK_REVISION=f6ff1529fd -DFLUTTER_ENGINE_REVISION=1527ae0ec5 -DFLUTTER_DART_VERSION=3.10.4 -DFLUTTER_WEB_USE_SKIA=true -DFLUTTER_WEB_USE_SKWASM=false -DFLUTTER_WEB_CANVASKIT_URL=https://www.gstatic.com/flutter-canvaskit/1527ae0ec577a4ef50e65f6fefcfc1326707d9bf/ --native-null-assertions --no-source-maps -O4 --minify -o /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/app.dill --packages=/home/shivam/WorkingArea/narayan_farms/.dart_tool/package_config.json --cfe-only /home/shivam/WorkingArea/narayan_farms/.dart_tool/flutter_build/8535141f7e6c106808cd0582b77dc492/main.dart
+           #0      RunResult.throwException (package:flutter_tools/src/base/process.dart:153:5)
+           #1      _DefaultProcessUtils.run (package:flutter_tools/src/base/process.dart:379:19)
+           <asynchronous suspension>
+           #2      Dart2JSTarget.build (package:flutter_tools/src/build_system/targets/web.dart:207:5)
+           <asynchronous suspension>
+           #3      _BuildInstance._invokeInternal (package:flutter_tools/src/build_system/build_system.dart:895:9)
+           <asynchronous suspension>
+           #4      Future.wait.<anonymous closure> (dart:async/future.dart:546:21)
+           <asynchronous suspension>
+           #5      _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart:833:32)
+           <asynchronous suspension>
+           #6      Future.wait.<anonymous closure> (dart:async/future.dart:546:21)
+           <asynchronous suspension>
+           #7      _BuildInstance.invokeTarget (package:flutter_tools/src/build_system/build_system.dart:833:32)
+           <asynchronous suspension>
+           #8      FlutterBuildSystem.build (package:flutter_tools/src/build_system/build_system.dart:653:16)
+           <asynchronous suspension>
+           #9      WebBuilder.buildWeb (package:flutter_tools/src/web/compile.dart:94:34)
+           <asynchronous suspension>
+           #10     BuildWebCommand.runCommand (package:flutter_tools/src/commands/build_web.dart:296:5)
+           <asynchronous suspension>
+           #11     FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1559:27)
+           <asynchronous suspension>
+           #12     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #13     CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #14     FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:487:9)
+           <asynchronous suspension>
+           #15     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #16     FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:422:5)
+           <asynchronous suspension>
+           #17     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #18     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #19     main (package:flutter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+[   +4 ms] Compiling lib/main.dart for the Web... (completed in 33.1s)
+[        ] "flutter web" took 33,616ms.
+[  +51 ms] Error: Failed to compile application for the Web.
+[        ] 
+           #0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+           #1      WebBuilder.buildWeb (package:flutter_tools/src/web/compile.dart:137:7)
+           <asynchronous suspension>
+           #2      BuildWebCommand.runCommand (package:flutter_tools/src/commands/build_web.dart:296:5)
+           <asynchronous suspension>
+           #3      FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1559:27)
+           <asynchronous suspension>
+           #4      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #5      CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #6      FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:487:9)
+           <asynchronous suspension>
+           #7      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #8      FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:422:5)
+           <asynchronous suspension>
+           #9      run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #10     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #11     main (package:flutter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+
+[        ] Running 1 shutdown hook
+[   +2 ms] Shutdown hooks complete
+[ +255 ms] exiting with code 1

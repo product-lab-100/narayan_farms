@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:narayan_farms/auth/bloc/auth_bloc.dart';
-import 'package:narayan_farms/auth/screens/success_screen.dart';
+import 'package:narayan_farms/features/auth/view_model/bloc/auth_bloc.dart';
+import 'package:narayan_farms/features/auth/view/screens/success_screen.dart';
 
 class OtpScreen extends StatelessWidget {
   final String verificationId;
   final String name;
   final String phoneNumber;
-  const OtpScreen(
-      {super.key,
-      required this.verificationId,
-      required this.name,
-      required this.phoneNumber});
+  const OtpScreen({
+    super.key,
+    required this.verificationId,
+    required this.name,
+    required this.phoneNumber,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -24,18 +25,13 @@ class OtpScreen extends StatelessWidget {
           if (state is AuthLoggedInState) {
             Navigator.pushAndRemoveUntil(
               context,
-              MaterialPageRoute(
-                builder: (context) => const SuccessScreen(),
-              ),
+              MaterialPageRoute(builder: (context) => const SuccessScreen()),
               (route) => false,
             );
           }
           if (state is AuthErrorState) {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text(state.error),
-                backgroundColor: Colors.red,
-              ),
+              SnackBar(content: Text(state.error), backgroundColor: Colors.red),
             );
           }
         },
@@ -51,7 +47,9 @@ class OtpScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 10),
-                const Text('We have sent the verification code to your phone no.'),
+                const Text(
+                  'We have sent the verification code to your phone no.',
+                ),
                 const SizedBox(height: 20),
                 TextFormField(
                   controller: otpController,
@@ -77,13 +75,13 @@ class OtpScreen extends StatelessWidget {
                       onPressed: () {
                         if (formKey.currentState!.validate()) {
                           context.read<AuthBloc>().add(
-                                VerifyOtpEvent(
-                                  verificationId: verificationId,
-                                  otp: otpController.text,
-                                  name: name,
-                                  phoneNumber: phoneNumber,
-                                ),
-                              );
+                            VerifyOtpEvent(
+                              verificationId: verificationId,
+                              otp: otpController.text,
+                              name: name,
+                              phoneNumber: phoneNumber,
+                            ),
+                          );
                         }
                       },
                       child: const Text('Confirm'),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:narayan_farms/auth/bloc/auth_bloc.dart';
-import 'package:narayan_farms/auth/screens/otp_screen.dart';
+import 'package:narayan_farms/features/auth/view_model/bloc/auth_bloc.dart';
+import 'package:narayan_farms/features/auth/view/screens/otp_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -29,10 +29,7 @@ class LoginScreen extends StatelessWidget {
           }
           if (state is AuthErrorState) {
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: Text(state.error),
-                backgroundColor: Colors.red,
-              ),
+              SnackBar(content: Text(state.error), backgroundColor: Colors.red),
             );
           }
         },
@@ -88,11 +85,11 @@ class LoginScreen extends StatelessWidget {
                       onPressed: () {
                         if (formKey.currentState!.validate()) {
                           context.read<AuthBloc>().add(
-                                SendOtpEvent(
-                                  phoneNumber: '+91${phoneController.text}',
-                                  name: nameController.text,
-                                ),
-                              );
+                            SendOtpEvent(
+                              phoneNumber: '+91${phoneController.text}',
+                              name: nameController.text,
+                            ),
+                          );
                         }
                       },
                       child: const Text('Continue'),
