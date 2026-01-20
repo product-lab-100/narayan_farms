@@ -40,13 +40,12 @@ class PlaceOrderSubmitting extends PlaceOrderState {
 }
 
 class PlaceOrderSuccess extends PlaceOrderState {
-  final String
-  message; // Or orderId if we had it returned easily from facade void
+  final String orderId;
 
-  const PlaceOrderSuccess(this.message);
+  const PlaceOrderSuccess(this.orderId);
 
   @override
-  List<Object> get props => [message];
+  List<Object> get props => [orderId];
 }
 
 class PlaceOrderError extends PlaceOrderState {
@@ -80,9 +79,9 @@ class PlaceOrderBloc extends Bloc<PlaceOrderEvent, PlaceOrderState> {
       // Maps to Map<String, int> as expected by Facade
       final items = {event.productId: event.quantity};
 
-      await _customerFacade.placeOrder(items);
+      final orderId = await _customerFacade.placeOrder(items);
 
-      emit(const PlaceOrderSuccess('Order Placed Successfully'));
+      emit(PlaceOrderSuccess(orderId));
     } catch (e) {
       emit(PlaceOrderError(e.toString()));
     }

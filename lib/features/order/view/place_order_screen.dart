@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:narayan_farms/features/customer/application/customer_aggregate_facade.dart';
+import 'package:narayan_farms/features/order/view/order_status_screen.dart';
+import 'package:narayan_farms/features/order/view_model/order_status_bloc.dart';
 import 'package:narayan_farms/features/order/view_model/place_order_bloc.dart';
 
 class PlaceOrderScreen extends StatefulWidget {
@@ -32,10 +35,20 @@ class _PlaceOrderScreenState extends State<PlaceOrderScreen> {
       body: BlocConsumer<PlaceOrderBloc, PlaceOrderState>(
         listener: (context, state) {
           if (state is PlaceOrderSuccess) {
-            ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: Text(state.message)));
-            // Optionally pop or navigate
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('Order Placed! Tracking...')),
+            );
+
+            Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (_) => BlocProvider<OrderStatusBloc>(
+                  create: (_) => OrderStatusBloc(
+                    customerFacade: context.read<CustomerAggregateFacade>(),
+                  ),
+                  child: OrderStatusScreen(orderId: state.orderId),
+                ),
+              ),
+            );
           }
         },
         builder: (context, state) {

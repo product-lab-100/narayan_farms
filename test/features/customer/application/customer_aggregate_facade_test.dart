@@ -19,8 +19,12 @@ class FakeSystemOrchestrator implements SystemOrchestrator {
   }
 
   @override
-  Future<void> placeOrder(CustomerId customerId, Map<String, int> items) async {
+  Future<String> placeOrder(
+    CustomerId customerId,
+    Map<String, int> items,
+  ) async {
     placedOrders.add({'customerId': customerId.value, 'items': items});
+    return 'fake-order-id';
   }
 
   @override

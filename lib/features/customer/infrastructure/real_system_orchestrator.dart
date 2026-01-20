@@ -33,15 +33,13 @@ class RealSystemOrchestrator implements SystemOrchestrator {
   }
 
   @override
-  Future<void> placeOrder(CustomerId customerId, Map<String, int> items) async {
-    if (items.isEmpty) return;
+  Future<String> placeOrder(
+    CustomerId customerId,
+    Map<String, int> items,
+  ) async {
+    if (items.isEmpty) throw ArgumentError('Empty items');
 
-    // The simplified UseCase currently supports one item per request structure logic,
-    // or we iterate. The prompt implies "Place Order" acts as a transaction.
-    // However, PlaceOrderFromAppInput takes ONE productId.
-    // We will loop or pick the first for this specific step as the UI
-    // "PlaceOrderScreen" likely focuses on ordering A product (singular).
-    // Let's assume the UI sends one item for now as per the "product list -> order" flow.
+    String lastOrderId = '';
 
     for (final entry in items.entries) {
       final input = PlaceOrderFromAppInput(
@@ -55,12 +53,21 @@ class RealSystemOrchestrator implements SystemOrchestrator {
       if (!result.success) {
         throw Exception(result.errorMessage ?? 'Order Failed');
       }
+      lastOrderId = result.orderId;
     }
+
+    return lastOrderId;
   }
 
   @override
-  Stream<String> trackOrderUpdates(CustomerId customerId) {
-    // TODO: Implement for future task
-    throw UnimplementedError();
+  Stream<String> trackOrderUpdates(CustomerId customerId) async* {
+    // In a real system, this would listen to Firestore/Socket/EventBus.
+    // For this demonstration with in-memory core, we simulate the
+    // "System Core" processing time.
+    yield 'Created';
+    await Future.delayed(const Duration(seconds: 2));
+    yield 'Assigned';
+    await Future.delayed(const Duration(seconds: 2));
+    yield 'Delivered';
   }
 }

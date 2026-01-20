@@ -31,7 +31,7 @@ abstract class SystemOrchestrator {
 
   /// Places an order for the authenticated customer.
   /// [items] is a Map of ProductId -> Quantity.
-  Future<void> placeOrder(CustomerId customerId, Map<String, int> items);
+  Future<String> placeOrder(CustomerId customerId, Map<String, int> items);
 
   /// Returns a stream of status updates for the customer's active orders.
   Stream<String> trackOrderUpdates(CustomerId customerId);

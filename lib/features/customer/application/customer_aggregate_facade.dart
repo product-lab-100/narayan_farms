@@ -72,7 +72,7 @@ class CustomerAggregateFacade {
   ///
   /// Validates intent and delegates to orchestrator.
   /// [items] is Map<ProductId, Quantity>.
-  Future<void> placeOrder(Map<String, int> items) async {
+  Future<String> placeOrder(Map<String, int> items) async {
     _ensureActive();
 
     if (items.isEmpty) {
@@ -84,7 +84,7 @@ class CustomerAggregateFacade {
       throw ArgumentError('Order quantities must be positive.');
     }
 
-    await _orchestrator.placeOrder(_customer.id, items);
+    return _orchestrator.placeOrder(_customer.id, items);
   }
 
   /// **trackOrders**

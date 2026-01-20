@@ -93,7 +93,7 @@ void main() {
       },
       expect: () => [
         const PlaceOrderSubmitting(),
-        const PlaceOrderSuccess('Order Placed Successfully'),
+        const PlaceOrderSuccess('ord-123'),
       ],
       verify: (_) {
         verify(() => placeOrderUseCase.execute(any())).called(1);

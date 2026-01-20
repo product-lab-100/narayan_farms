@@ -6,7 +6,16 @@ import 'package:narayan_system_core/narayan_system_core.dart';
 
 class MainAgentProvider implements AgentProviderPort {
   @override
-  List<delivery.DeliveryAgent> getAvailableAgents() => [];
+  List<delivery.DeliveryAgent> getAvailableAgents() {
+    // Temporary in-memory agent seeding for demo/testing
+    return [
+      delivery.DeliveryAgent(
+        id: delivery.DeliveryAgentId('agent-1'),
+        role: delivery.AgentRole.delivery,
+        status: delivery.AgentStatus.active,
+      ),
+    ];
+  }
 }
 
 class MainRouteProvider implements RouteProviderPort {
