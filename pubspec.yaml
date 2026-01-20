@@ -1,6 +1,6 @@
 name: narayan_farms
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -12,6 +12,12 @@ dependencies:
   equatable: ^2.0.8
   firebase_auth: ^6.1.3
   firebase_core: ^4.3.0
+  narayan_system_core: ^1.1.3
+  customer_relation: ^0.1.0
+  ordering: ^1.0.0
+  supply_inventory: ^1.0.0
+  delivery_workforce: ^1.0.0
+  loyalty_levels: ^0.1.0
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
@@ -20,6 +26,10 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  meta: ^1.18.0
+  test_api: ^0.7.9
 
 flutter:
   uses-material-design: true
